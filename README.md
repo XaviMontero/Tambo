@@ -1,7 +1,11 @@
-# Tambo
+## Pasos previos
+- [Instalar y configurar Flutter Windows ](https://flutter.dev/docs/get-started/install/windows/)
+- [Instalar y configurar Flutter Linux ](https://flutter.dev/docs/get-started/install/linux)
 
-A new Flutter project.
-
+`Tambo` posee una lista de dependencias que necesitas intalar con el comando desde la terminal: Ejecuta.
+```bash
+flutter packages get
+```
 ## Feature-1
 
  
