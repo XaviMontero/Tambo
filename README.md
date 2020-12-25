@@ -7,7 +7,7 @@
 flutter packages get
 ```
 ## Feature-1
-
+ Planteamos las bases que necesitamos mendiante requisitos adquiridos con encuestas y 
  
 ## Bitácora
 
