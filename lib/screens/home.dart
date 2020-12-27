@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tambo/generated/l10n.dart';
 import 'package:tambo/util/places.dart';
 import 'package:tambo/widgets/horizontal_place_item.dart';
 import 'package:tambo/widgets/icon_badge.dart';
@@ -20,11 +21,12 @@ class Home extends StatelessWidget {
         ],
       ),
       body: ListView(
+        
         children: <Widget>[
           Padding(
             padding: EdgeInsets.all(20.0),
             child: Text(
-              "Bienvenido a \nEl Tambo",
+              S.of(context).welcomeTambo,
               style: TextStyle(
                 fontSize: 30.0,
                 fontWeight: FontWeight.w600,
