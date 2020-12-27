@@ -44,6 +44,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Kirk The Tambo`
+  String get nameKirk {
+    return Intl.message(
+      'Kirk The Tambo',
+      name: 'nameKirk',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `$Free/All day`
+  String get priceKirk {
+    return Intl.message(
+      '\$Free/All day',
+      name: 'priceKirk',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Center, Tambo`
+  String get locationKirk {
+    return Intl.message(
+      'Center, Tambo',
+      name: 'locationKirk',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `According to the existing baptismal books to date, the parish was already founded before the first Baptism inscription, which dates from January 17, 1836, but thanks to historical references from Father Manuel J. Guambaña it can be known that before the 5th of July 1835 was already founded as a suffragan of Jatuncañar. \n\nAs a fact of great importance within the parish life was the erection of the cave dedicated to Jesús del Gran Poder, located in the northern part of the Canton`
+  String get detailsKirk {
+    return Intl.message(
+      'According to the existing baptismal books to date, the parish was already founded before the first Baptism inscription, which dates from January 17, 1836, but thanks to historical references from Father Manuel J. Guambaña it can be known that before the 5th of July 1835 was already founded as a suffragan of Jatuncañar. \n\nAs a fact of great importance within the parish life was the erection of the cave dedicated to Jesús del Gran Poder, located in the northern part of the Canton',
+      name: 'detailsKirk',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nope`
+  String get urlKirk {
+    return Intl.message(
+      'Nope',
+      name: 'urlKirk',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

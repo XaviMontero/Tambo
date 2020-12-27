@@ -21,6 +21,11 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
+    "detailsKirk" : MessageLookupByLibrary.simpleMessage("Según los libros bautismales existentes hasta la fecha, la parroquia estuvo ya fundada antes de la primera inscripción de Bautizo que data del 17 de enero de 1836, pero gracias a referencias históricas del P. Manuel J. Guambaña se puede conocer que antes del 5 de julio de 1835 ya estuvo fundada como sufragánea de Jatuncañar. \n\nComo un hecho de gran importancia dentro de la vida parroquial fue la erección de la gruta dedicada a Jesús del Gran Poder, ubicada en la parte norte del Cantón"),
+    "locationKirk" : MessageLookupByLibrary.simpleMessage("Centro, Tambo"),
+    "nameKirk" : MessageLookupByLibrary.simpleMessage("Iglesia El Tambo"),
+    "priceKirk" : MessageLookupByLibrary.simpleMessage("\$Gratis/Todo el día"),
+    "urlKirk" : MessageLookupByLibrary.simpleMessage("No"),
     "welcomeTambo" : MessageLookupByLibrary.simpleMessage("Binevenido a \nEl Tambo")
   };
 }

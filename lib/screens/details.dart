@@ -25,7 +25,7 @@ class Details extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           SizedBox(height: 10.0),
-          buildSlider(),
+          buildSlider(context),
           SizedBox(height: 20),
           ListView(
             padding: EdgeInsets.symmetric(horizontal: 20),
@@ -39,7 +39,7 @@ class Details extends StatelessWidget {
                   Container(
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      "${places[0]["name"]}",
+                      "${Place.getPlaces(context)[0]["name"]}",
                       style: TextStyle(
                         fontWeight: FontWeight.w700,
                         fontSize: 20,
@@ -67,7 +67,7 @@ class Details extends StatelessWidget {
                   Container(
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      "${places[0]["location"]}",
+                      "${Place.getPlaces(context)[0]["location"]}",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 13,
@@ -83,7 +83,7 @@ class Details extends StatelessWidget {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  "${places[0]["price"]}",
+                  "${Place.getPlaces(context)[0]["price"]}",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 17,
@@ -109,7 +109,7 @@ class Details extends StatelessWidget {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  "${places[0]["details"]}",
+                  "${Place.getPlaces(context)[0]["details"]}",
                   style: TextStyle(
                     fontWeight: FontWeight.normal,
                     fontSize: 15.0,
@@ -131,16 +131,16 @@ class Details extends StatelessWidget {
     );
   }
 
-  buildSlider() {
+  buildSlider(BuildContext context) {
     return Container(
       padding: EdgeInsets.only(left: 20),
       height: 250.0,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         primary: false,
-        itemCount: places == null ? 0 : places.length,
+        itemCount: Place.getPlaces(context) == null ? 0 : Place.getPlaces(context).length,
         itemBuilder: (BuildContext context, int index) {
-          Map place = places[index];
+          Map place = Place.getPlaces(context)[index];
 
           return Padding(
             padding: EdgeInsets.only(right: 10.0),
