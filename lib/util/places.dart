@@ -1,18 +1,30 @@
-List places = [
+
+
+
+
+import 'package:flutter/material.dart';
+import 'package:tambo/generated/l10n.dart';
+
+class Place {
+
+  static getPlaces(BuildContext context) {
+    return [
   {
-    "name": "Hotel Dolah Amet & Suites",
+    "name": S.of(context).nameKirk,
     "img": "assets/1.jpeg",
-    "price": r"$100/night",
-    "location": "London, England",
-    "details": "Pellentesque in ipsum id orci porta dapibus. "
-        "Nulla porttitor accumsan tincidunt. Donec rutrum "
-        "congue leo eget malesuada. "
-        "\n\nPraesent sapien massa, convallis a pellentesque "
-        "nec, egestas non nisi. Donec rutrum congue leo eget malesuada. "
-        "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. "
-        "Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. "
-        "\nCurabitur arcu erat, accumsan id imperdiet et, porttitor at sem. "
-        "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+    "price": S.of(context).priceKirk,
+    "location": S.of(context).locationKirk,
+    "details": S.of(context).detailsKirk,
+    "imgs":[
+      {
+        "img": "assets/1.jpeg",
+      },{
+        "img": "assets/2.jpeg",
+      },{
+        "img": "assets/3.jpeg",
+      }
+    ],
+    "url":S.of(context).urlKirk
   },
   {
     "name": "Beach Mauris Blandit",
@@ -75,3 +87,6 @@ List places = [
         "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
   },
 ];
+  }
+}
+ 

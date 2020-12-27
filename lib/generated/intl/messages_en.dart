@@ -21,6 +21,11 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
+    "detailsKirk" : MessageLookupByLibrary.simpleMessage("According to the existing baptismal books to date, the parish was already founded before the first Baptism inscription, which dates from January 17, 1836, but thanks to historical references from Father Manuel J. Guambaña it can be known that before the 5th of July 1835 was already founded as a suffragan of Jatuncañar. \n\nAs a fact of great importance within the parish life was the erection of the cave dedicated to Jesús del Gran Poder, located in the northern part of the Canton"),
+    "locationKirk" : MessageLookupByLibrary.simpleMessage("Center, Tambo"),
+    "nameKirk" : MessageLookupByLibrary.simpleMessage("Kirk The Tambo"),
+    "priceKirk" : MessageLookupByLibrary.simpleMessage("\$Free/All day"),
+    "urlKirk" : MessageLookupByLibrary.simpleMessage("Nope"),
     "welcomeTambo" : MessageLookupByLibrary.simpleMessage("Welcome \nThe Tambo")
   };
 }

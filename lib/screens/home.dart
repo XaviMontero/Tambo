@@ -38,7 +38,7 @@ class Home extends StatelessWidget {
             child: SearchBar(),
           ),
           buildHorizontalList(context),
-          buildVerticalList(),
+          buildVerticalList(context),
         ],
       ),
     );
@@ -52,25 +52,25 @@ class Home extends StatelessWidget {
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         primary: false,
-        itemCount: places == null ? 0.0 : places.length,
+        itemCount: Place.getPlaces(context) == null ? 0.0 : Place.getPlaces(context).length,
         itemBuilder: (BuildContext context, int index) {
-          Map place = places.reversed.toList()[index];
+          Map place = Place.getPlaces(context).reversed.toList()[index];
           return HorizontalPlaceItem(place: place);
         },
       ),
     );
   }
 
-  buildVerticalList() {
+  buildVerticalList(BuildContext context) {
     return Padding(
       padding: EdgeInsets.all(20.0),
       child: ListView.builder(
         primary: false,
         physics: NeverScrollableScrollPhysics(),
         shrinkWrap: true,
-        itemCount: places == null ? 0 : places.length,
+        itemCount: Place.getPlaces(context) == null ? 0 : Place.getPlaces(context).length,
         itemBuilder: (BuildContext context, int index) {
-          Map place = places[index];
+          Map place = Place.getPlaces(context)[index];
           return VerticalPlaceItem(place: place);
         },
       ),
