@@ -1,7 +1,3 @@
-
-
-
-
 import 'package:flutter/material.dart';
 import 'package:tambo/generated/l10n.dart';
 
@@ -11,7 +7,7 @@ class Place {
     return [
   {
     "name": S.of(context).nameKirk,
-    "img": "assets/1.jpeg",
+    "img": "assets/mapa.png",
     "price": S.of(context).priceKirk,
     "location": S.of(context).locationKirk,
     "details": S.of(context).detailsKirk,
@@ -27,66 +23,125 @@ class Place {
     "url":S.of(context).urlKirk
   },
   {
-    "name": "Beach Mauris Blandit",
-    "img": "assets/2.jpeg",
+    "name": S.of(context).nameCanari,
+    "img": "assets/culturas.jpg",
     "price": r"$100/night",
     "location": "Lisbon, Portugal",
-    "details": "Pellentesque in ipsum id orci porta dapibus. "
-        "Nulla porttitor accumsan tincidunt. Donec rutrum "
-        "congue leo eget malesuada. "
-        "\nPraesent sapien massa, convallis a pellentesque "
-        "nec, egestas non nisi. Donec rutrum congue leo eget malesuada. "
-        "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. "
-        "Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. "
-        "\nCurabitur arcu erat, accumsan id imperdiet et, porttitor at sem. "
-        "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+    "details": S.of(context).detailsCanari,
+    "imgs":[
+      {
+        "img": "assets/1.jpeg",
+      },{
+        "img": "assets/2.jpeg",
+      },{
+        "img": "assets/3.jpeg",
+      }
+    ],
+    "url":S.of(context).urlKirk
+
   },
   {
-    "name": "Ipsum Restaurant",
-    "img": "assets/3.jpeg",
+    "name": S.of(context).nameVestimenta,
+    "img": "assets/vestimenta.jpg",
     "price": r"$100/night",
     "location": "Paris, France",
-    "details": "Pellentesque in ipsum id orci porta dapibus. "
-        "Nulla porttitor accumsan tincidunt. Donec rutrum "
-        "congue leo eget malesuada. "
-        "\n\nPraesent sapien massa, convallis a pellentesque "
-        "nec, egestas non nisi. Donec rutrum congue leo eget malesuada. "
-        "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. "
-        "Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. "
-        "\nCurabitur arcu erat, accumsan id imperdiet et, porttitor at sem. "
-        "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+    "details": S.of(context).detailsvestimenta,
+    "imgs":[
+      {
+        "img": "assets/1.jpeg",
+      },{
+        "img": "assets/2.jpeg",
+      },{
+        "img": "assets/3.jpeg",
+      }
+    ],
+    "url":S.of(context).urlKirk
   },
   {
-    "name": "Curabitur Beach",
-    "img": "assets/4.jpeg",
+    "name": S.of(context).nameArtesanias,
+    "img": "assets/manualidades.jpg",
     "price": r"$100/night",
     "location": "Rome, Italy",
-    "details": "Pellentesque in ipsum id orci porta dapibus. "
-        "Nulla porttitor accumsan tincidunt. Donec rutrum "
-        "congue leo eget malesuada. "
-        "\nPraesent sapien massa, convallis a pellentesque "
-        "nec, egestas non nisi. Donec rutrum congue leo eget malesuada. "
-        "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. "
-        "Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. "
-        "\nCurabitur arcu erat, accumsan id imperdiet et, porttitor at sem. "
-        "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+    "details": S.of(context).detailsArtesanias,
+    "imgs":[
+      {
+        "img": "assets/1.jpeg",
+      },{
+        "img": "assets/2.jpeg",
+      },{
+        "img": "assets/3.jpeg",
+      }
+    ],
+    "url":S.of(context).urlKirk
   },
   {
-    "name": "Tincidunt Pool",
-    "img": "assets/5.jpeg",
+    "name": S.of(context).nameGastronomia,
+    "img": "assets/gastronomia.jpg",
     "price": r"$100/night",
     "location": "Madrid, Spain",
-    "details": "Pellentesque in ipsum id orci porta dapibus. "
-        "Nulla porttitor accumsan tincidunt. Donec rutrum "
-        "congue leo eget malesuada. "
-        "\nPraesent sapien massa, convallis a pellentesque "
-        "nec, egestas non nisi. Donec rutrum congue leo eget malesuada. "
-        "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. "
-        "Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada. "
-        "\nCurabitur arcu erat, accumsan id imperdiet et, porttitor at sem. "
-        "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+    "details": S.of(context).detailsGastronomia,
+    "imgs":[
+      {
+        "img": "assets/1.jpeg",
+      },{
+        "img": "assets/2.jpeg",
+      },{
+        "img": "assets/3.jpeg",
+      }
+    ],
+    "url":S.of(context).urlKirk
   },
+      {
+        "name": S.of(context).nameLeyenda,
+        "img": "assets/leyendas.jpg",
+        "price": S.of(context).priceKirk,
+        "location": S.of(context).locationKirk,
+        "details": S.of(context).detailsLeyenda,
+        "imgs":[
+          {
+            "img": "assets/1.jpeg",
+          },{
+            "img": "assets/2.jpeg",
+          },{
+            "img": "assets/3.jpeg",
+          }
+        ],
+        "url":S.of(context).urlKirk
+      },
+      {
+        "name": S.of(context).nameMedicina,
+        "img": "assets/medicina.jpg",
+        "price": S.of(context).priceKirk,
+        "location": S.of(context).locationKirk,
+        "details": S.of(context).detailsMedicina,
+        "imgs":[
+          {
+            "img": "assets/1.jpeg",
+          },{
+            "img": "assets/2.jpeg",
+          },{
+            "img": "assets/3.jpeg",
+          }
+        ],
+        "url":S.of(context).urlKirk
+      },
+      {
+        "name": S.of(context).nameKilla,
+        "img": "assets/killa.jpg",
+        "price": S.of(context).priceKirk,
+        "location": S.of(context).locationKirk,
+        "details": S.of(context).detailsKilla,
+        "imgs":[
+          {
+            "img": "assets/1.jpeg",
+          },{
+            "img": "assets/2.jpeg",
+          },{
+            "img": "assets/3.jpeg",
+          }
+        ],
+        "url":S.of(context).urlKirk
+      }
 ];
   }
 }
- 
