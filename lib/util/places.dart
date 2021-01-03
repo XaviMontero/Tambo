@@ -91,6 +91,7 @@ class Place {
     ],
     "url":S.of(context).urlKirk
   },
+  
       {
         "name": S.of(context).nameLeyenda,
         "img": "assets/leyendas.jpg",
