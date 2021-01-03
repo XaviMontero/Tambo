@@ -60,7 +60,8 @@ class HorizontalPlaceItem extends StatelessWidget {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (BuildContext context) {
-                return Details();
+                  return Details(place: place,);
+             
               },
             ),
           );

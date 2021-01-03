@@ -3,6 +3,10 @@ import 'package:tambo/util/places.dart';
 import 'package:tambo/widgets/icon_badge.dart';
 
 class Details extends StatelessWidget {
+
+  Map place ; 
+  Details ({@required this.place});
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +43,7 @@ class Details extends StatelessWidget {
                   Container(
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      "${Place.getPlaces(context)[0]["name"]}",
+                      "${place["name"]}",
                       style: TextStyle(
                         fontWeight: FontWeight.w700,
                         fontSize: 20,
@@ -67,7 +71,7 @@ class Details extends StatelessWidget {
                   Container(
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      "${Place.getPlaces(context)[0]["location"]}",
+                      "${place["location"]}",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 13,
@@ -83,7 +87,7 @@ class Details extends StatelessWidget {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  "${Place.getPlaces(context)[0]["price"]}",
+                  "${place["price"]}",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 17,
@@ -109,7 +113,7 @@ class Details extends StatelessWidget {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  "${Place.getPlaces(context)[0]["details"]}",
+                  "${place["details"]}",
                   style: TextStyle(
                     fontWeight: FontWeight.normal,
                     fontSize: 15.0,
@@ -138,9 +142,9 @@ class Details extends StatelessWidget {
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         primary: false,
-        itemCount: Place.getPlaces(context) == null ? 0 : Place.getPlaces(context).length,
+        itemCount: this.place["imgs"] == null ? 0 : this.place["imgs"].length,
         itemBuilder: (BuildContext context, int index) {
-          Map place = Place.getPlaces(context)[index];
+          Map place = this.place["imgs"][index];
 
           return Padding(
             padding: EdgeInsets.only(right: 10.0),
