@@ -20,9 +20,22 @@ flutter initl
  La internacionalización de la app
  
 ## Feature-3
-![Tambo future prototype](https://raw.githubusercontent.com/XaviMontero/Tambo/main/prototype/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-01-02%20at%2022.49.30.png)
-![Tambo home](https://raw.githubusercontent.com/XaviMontero/Tambo/main/prototype/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-01-02%20at%2022.52.11.png)
-![Tambo Detail](https://raw.githubusercontent.com/XaviMontero/Tambo/main/prototype/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-01-02%20at%2022.52.40.png)
+<p align="center">  Tambo future prototype </p>
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/XaviMontero/Tambo/main/prototype/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-01-02%20at%2022.49.30.png" width="500" height:"300">
+</p>
+
+
+<p align="center">  Tambo home </p>
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/XaviMontero/Tambo/main/prototype/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-01-02%20at%2022.52.11.png" width="500" height:"300">
+</p>
+ 
+ <p align="center">  Tambo Detail </p>
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/XaviMontero/Tambo/main/prototype/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202021-01-02%20at%2022.52.40.png" width="500" height:"300">
+</p>
+
  
 ## Bitácora
 
