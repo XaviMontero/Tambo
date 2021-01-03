@@ -38,6 +38,7 @@ class Home extends StatelessWidget {
             child: SearchBar(),
           ),
           buildHorizontalList(context),
+
           buildVerticalList(context),
         ],
       ),
