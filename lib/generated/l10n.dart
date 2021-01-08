@@ -85,10 +85,10 @@ class S {
     );
   }
 
-  /// `No`
+  /// `https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min`
   String get urlKirk {
     return Intl.message(
-      'No',
+      'https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min',
       name: 'urlKirk',
       desc: '',
       args: [],
@@ -135,10 +135,10 @@ class S {
     );
   }
 
-  /// `Nope`
+  /// `https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min`
   String get urlCanari {
     return Intl.message(
-      'Nope',
+      'https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min',
       name: 'urlCanari',
       desc: '',
       args: [],
@@ -185,10 +185,10 @@ class S {
     );
   }
 
-  /// `Nope`
+  /// `https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min`
   String get urlvestimenta {
     return Intl.message(
-      'Nope',
+      'https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min',
       name: 'urlvestimenta',
       desc: '',
       args: [],
@@ -235,10 +235,10 @@ class S {
     );
   }
 
-  /// `Nope`
+  /// `https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min`
   String get urlArtesanias {
     return Intl.message(
-      'Nope',
+      'https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min',
       name: 'urlArtesanias',
       desc: '',
       args: [],
@@ -285,10 +285,10 @@ class S {
     );
   }
 
-  /// `Nope`
+  /// `https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min`
   String get urlGastronomia {
     return Intl.message(
-      'Nope',
+      'https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min',
       name: 'urlGastronomia',
       desc: '',
       args: [],
@@ -325,10 +325,10 @@ class S {
     );
   }
 
-  /// `Nope`
+  /// `https://poly.google.com/view/cj4V47OttCi/embed?chrome=min`
   String get urlMedicina {
     return Intl.message(
-      'Nope',
+      'https://poly.google.com/view/cj4V47OttCi/embed?chrome=min',
       name: 'urlMedicina',
       desc: '',
       args: [],
@@ -375,10 +375,10 @@ class S {
     );
   }
 
-  /// `Nope`
+  /// `https://poly.google.com/view/cj4V47OttCi/embed?chrome=min`
   String get urlKilla {
     return Intl.message(
-      'Nope',
+      'https://poly.google.com/view/cj4V47OttCi/embed?chrome=min',
       name: 'urlKilla',
       desc: '',
       args: [],

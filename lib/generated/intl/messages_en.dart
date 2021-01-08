@@ -51,13 +51,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "priceKirk" : MessageLookupByLibrary.simpleMessage("\$Gratis/Todo el día"),
     "priceMedicina" : MessageLookupByLibrary.simpleMessage("\$Free/All day"),
     "pricevestimenta" : MessageLookupByLibrary.simpleMessage("\$Free/All day"),
-    "urlArtesanias" : MessageLookupByLibrary.simpleMessage("Nope"),
-    "urlCanari" : MessageLookupByLibrary.simpleMessage("Nope"),
-    "urlGastronomia" : MessageLookupByLibrary.simpleMessage("Nope"),
-    "urlKilla" : MessageLookupByLibrary.simpleMessage("Nope"),
-    "urlKirk" : MessageLookupByLibrary.simpleMessage("No"),
-    "urlMedicina" : MessageLookupByLibrary.simpleMessage("Nope"),
-    "urlvestimenta" : MessageLookupByLibrary.simpleMessage("Nope"),
+    "urlArtesanias" : MessageLookupByLibrary.simpleMessage("https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min"),
+    "urlCanari" : MessageLookupByLibrary.simpleMessage("https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min"),
+    "urlGastronomia" : MessageLookupByLibrary.simpleMessage("https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min"),
+    "urlKilla" : MessageLookupByLibrary.simpleMessage("https://poly.google.com/view/cj4V47OttCi/embed?chrome=min"),
+    "urlKirk" : MessageLookupByLibrary.simpleMessage("https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min"),
+    "urlMedicina" : MessageLookupByLibrary.simpleMessage("https://poly.google.com/view/cj4V47OttCi/embed?chrome=min"),
+    "urlvestimenta" : MessageLookupByLibrary.simpleMessage("https://poly.google.com/view/cLoPVNJRObc/embed?chrome=min"),
     "welcomeTambo" : MessageLookupByLibrary.simpleMessage("Binevenido a \nEl Tambo")
   };
 }
