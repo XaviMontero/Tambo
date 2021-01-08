@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tambo/util/places.dart';
+import 'package:tambo/screens/web_view.dart';
 import 'package:tambo/widgets/icon_badge.dart';
 
 class Details extends StatelessWidget {
@@ -130,9 +130,24 @@ class Details extends StatelessWidget {
         child: Icon(
           Icons.airplanemode_active,
         ),
-        onPressed: () {},
+        onPressed: () {
+          _showModalSheet(place["url"], place['name'], 'Cargando', context);
+        },
       ),
     );
+  }
+
+   _showModalSheet(String url, String titulo, String descrip,BuildContext context) {
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (BuildContext context) => Webview(
+            url: url ,
+            titulo: titulo,
+            descripcion: descrip,
+          ),
+          fullscreenDialog: true,
+        ));
   }
 
   buildSlider(BuildContext context) {
