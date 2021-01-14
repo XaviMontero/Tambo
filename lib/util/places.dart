@@ -13,11 +13,7 @@ class Place {
     "details": S.of(context).detailsKirk,
     "imgs":[
       {
-        "img": "assets/1.jpeg",
-      },{
-        "img": "assets/2.jpeg",
-      },{
-        "img": "assets/3.jpeg",
+        "img": "assets/mapa.png",
       }
     ],
     "url":S.of(context).urlKirk
@@ -30,11 +26,11 @@ class Place {
     "details": S.of(context).detailsCanari,
     "imgs":[
       {
-        "img": "assets/1.jpeg",
+        "img": "assets/cultura1.jpg",
       },{
-        "img": "assets/2.jpeg",
+        "img": "assets/cultura2.jpg",
       },{
-        "img": "assets/3.jpeg",
+        "img": "assets/cultura3.jpg",
       }
     ],
     "url":S.of(context).urlKirk
@@ -65,11 +61,9 @@ class Place {
     "details": S.of(context).detailsArtesanias,
     "imgs":[
       {
-        "img": "assets/1.jpeg",
+        "img": "assets/artesanias1.jpg",
       },{
-        "img": "assets/2.jpeg",
-      },{
-        "img": "assets/3.jpeg",
+        "img": "assets/artesanias2.jpg",
       }
     ],
     "url":S.of(context).urlKirk
@@ -82,11 +76,11 @@ class Place {
     "details": S.of(context).detailsGastronomia,
     "imgs":[
       {
-        "img": "assets/1.jpeg",
+        "img": "assets/gastronomia2.jpg",
       },{
-        "img": "assets/2.jpeg",
+        "img": "assets/gastronomia3.jpg",
       },{
-        "img": "assets/3.jpeg",
+        "img": "assets/gastronomia1.jpg",
       }
     ],
     "url":S.of(context).urlKirk
@@ -100,11 +94,11 @@ class Place {
         "details": S.of(context).detailsLeyenda,
         "imgs":[
           {
-            "img": "assets/1.jpeg",
+            "img": "assets/leyenda1.jpg",
           },{
-            "img": "assets/2.jpeg",
+            "img": "assets/leyenda2.jpg",
           },{
-            "img": "assets/3.jpeg",
+            "img": "assets/leyenda3.jpg",
           }
         ],
         "url":S.of(context).urlKirk
@@ -117,12 +111,8 @@ class Place {
         "details": S.of(context).detailsMedicina,
         "imgs":[
           {
-            "img": "assets/1.jpeg",
-          },{
-            "img": "assets/2.jpeg",
-          },{
-            "img": "assets/3.jpeg",
-          }
+            "img": "assets/medicina1.jpg",
+          },
         ],
         "url":S.of(context).urlKirk
       },
@@ -134,11 +124,35 @@ class Place {
         "details": S.of(context).detailsKilla,
         "imgs":[
           {
-            "img": "assets/1.jpeg",
+            "img": "assets/killa1.jpg",
           },{
-            "img": "assets/2.jpeg",
-          },{
-            "img": "assets/3.jpeg",
+            "img": "assets/killa2.jpg",
+          }
+        ],
+        "url":S.of(context).urlKirk
+      },
+      {
+        "name": S.of(context).nameRaymis,
+        "img": "assets/killa.jpg",
+        "price": S.of(context).priceRaymis,
+        "location": S.of(context).locationRaymis,
+        "details": S.of(context).detailsRaymis,
+        "imgs":[
+          {
+            "img": "assets/calendario.jpg",
+          }
+        ],
+        "url":S.of(context).urlKirk
+      },
+      {
+        "name": S.of(context).nameCostumbres,
+        "img": "assets/killa.jpg",
+        "price": S.of(context).priceCostumbres,
+        "location": S.of(context).locationCostumbres,
+        "details": S.of(context).detailsCostumbres,
+        "imgs":[
+          {
+            "img": "assets/hilado.jpg",
           }
         ],
         "url":S.of(context).urlKirk
