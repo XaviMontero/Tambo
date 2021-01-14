@@ -71,7 +71,7 @@ class Details extends StatelessWidget {
                   Container(
                     alignment: Alignment.centerLeft,
                     child: Text(
-                      "${place["location"]}",
+                      "",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 13,
@@ -87,7 +87,7 @@ class Details extends StatelessWidget {
               Container(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  "${place["price"]}",
+                  "",
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 17,
@@ -126,14 +126,14 @@ class Details extends StatelessWidget {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
+      floatingActionButton: place["url"]!=""?FloatingActionButton(
         child: Icon(
-          Icons.airplanemode_active,
+          Icons.map_rounded
         ),
         onPressed: () {
           _showModalSheet(place["url"], place['name'], 'Cargando', context);
         },
-      ),
+      ):Container(),
     );
   }
 
