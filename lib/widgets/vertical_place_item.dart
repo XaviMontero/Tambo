@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-
-import '../screens/details.dart';
+import 'package:tambo/screens/details_contact.dart';
 
 class VerticalPlaceItem extends StatelessWidget {
-  final Map place;
+  final Map contact;
 
-  VerticalPlaceItem({this.place});
+  VerticalPlaceItem({this.contact});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +18,7 @@ class VerticalPlaceItem extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(5),
                 child: Image.asset(
-                  "${place["img"]}",
+                  "${contact["img"]}",
                   height: 70.0,
                   width: 70.0,
                   fit: BoxFit.cover,
@@ -37,7 +36,7 @@ class VerticalPlaceItem extends StatelessWidget {
                     Container(
                       alignment: Alignment.centerLeft,
                       child: Text(
-                        "${place["name"]}",
+                        "${contact["name"]}",
                         style: TextStyle(
                           fontWeight: FontWeight.w700,
                           fontSize: 14.0,
@@ -46,35 +45,11 @@ class VerticalPlaceItem extends StatelessWidget {
                         textAlign: TextAlign.left,
                       ),
                     ),
-                    SizedBox(height: 3.0),
-                    Row(
-                      children: <Widget>[
-                        Icon(
-                          Icons.location_on,
-                          size: 13.0,
-                          color: Colors.blueGrey[300],
-                        ),
-                        SizedBox(width: 3.0),
-                        Container(
-                          alignment: Alignment.centerLeft,
-                          child: Text(
-                            "${place["location"]}",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 13.0,
-                              color: Colors.blueGrey[300],
-                            ),
-                            maxLines: 1,
-                            textAlign: TextAlign.left,
-                          ),
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 10.0),
+                    SizedBox(height: 3.0), 
                     Container(
                       alignment: Alignment.centerLeft,
                       child: Text(
-                        "${place["price"]}",
+                        "${contact["subTitel"]}",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16.0,
@@ -93,7 +68,7 @@ class VerticalPlaceItem extends StatelessWidget {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (BuildContext context) {
-                return Details(place: place,);
+                return DetailsContact(contact: contact,);
               },
             ),
           );
