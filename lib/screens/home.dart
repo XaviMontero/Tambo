@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tambo/generated/l10n.dart';
+import 'package:tambo/util/contact.dart';
 import 'package:tambo/util/places.dart';
 import 'package:tambo/widgets/horizontal_place_item.dart';
 import 'package:tambo/widgets/icon_badge.dart';
@@ -69,10 +70,10 @@ class Home extends StatelessWidget {
         primary: false,
         physics: NeverScrollableScrollPhysics(),
         shrinkWrap: true,
-        itemCount: Place.getPlaces(context) == null ? 0 : Place.getPlaces(context).length,
+        itemCount: Contact.getContact() == null ? 0 : Contact.getContact().length,
         itemBuilder: (BuildContext context, int index) {
-          Map place = Place.getPlaces(context)[index];
-          return VerticalPlaceItem(place: place);
+          Map place = Contact.getContact()[index];
+          return VerticalPlaceItem(contact: place);
         },
       ),
     );
