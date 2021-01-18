@@ -155,7 +155,7 @@ class Place {
             "img": "assets/hilado.jpg",
           }
         ],
-        "url":S.of(context).urlKirk
+        "url": ""
       }
 ];
   }

@@ -16,21 +16,15 @@ class DetailsContact extends StatelessWidget {
           ),
           onPressed: () => Navigator.pop(context),
         ),
-        actions: <Widget>[
-          IconButton(
-            icon: IconBadge(
-              icon: Icons.notifications_none,
-            ),
-            onPressed: () {},
-          ),
-        ],
+      
       ),
       body: ListView.builder(
         itemCount: this.contact["contactos"].length,
         itemBuilder: (context, index) {
           return ListTile(
             title: Text(this.contact["contactos"][index]["nombre"]),
-            subtitle: Text(this.contact["contactos"][index]["telefonop"]),
+            subtitle: Text('${this.contact["contactos"][index]["telefonop"]} \n${this.contact["contactos"][index]["direccion"]}' ),
+            
           );
         },
       ),

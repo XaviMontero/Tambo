@@ -3,24 +3,13 @@ import 'package:tambo/generated/l10n.dart';
 import 'package:tambo/util/contact.dart';
 import 'package:tambo/util/places.dart';
 import 'package:tambo/widgets/horizontal_place_item.dart';
-import 'package:tambo/widgets/icon_badge.dart';
 import 'package:tambo/widgets/search_bar.dart';
 import 'package:tambo/widgets/vertical_place_item.dart';
 
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        actions: <Widget>[
-          IconButton(
-            icon: IconBadge(
-              icon: Icons.notifications_none,
-            ),
-            onPressed: () {},
-          ),
-        ],
-      ),
+    return Scaffold( 
       body: ListView(
         
         children: <Widget>[
