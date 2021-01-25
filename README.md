@@ -44,6 +44,7 @@ flutter initl
 
 - Feature-3: 2020-12-27, Tercera versión: Se mapearon los datos de la home al detalle .
 - Feature-4: 2021-01-06, Add Paseos virtuales en 360
+- Feature-5: 2021-01-20, Despliegue  play store 
 
  
  
