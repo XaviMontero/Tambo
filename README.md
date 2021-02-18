@@ -43,7 +43,7 @@ flutter initl
 - Feature-2: 2020-12-27, Segunda versión: Se detallo en los requerimientos la necesidad de que la app tenga la internacionalización, para que usuarios de otros paises puedan utilizar, en este caso Spanish y English son los idiomas por defecto .
 
 - Feature-3: 2020-12-27, Tercera versión: Se mapearon los datos de la home al detalle .
-- Feature-4: 2021-01-06, Add Paseos virtuales en 360
+- Feature-4: 2021-01-14, Add Paseos virtuales en 360
 - Feature-5: 2021-01-20, Despliegue  play store https://play.google.com/store/apps/details?id=com.lamotora.tambo&hl=es&gl=US
 
  
